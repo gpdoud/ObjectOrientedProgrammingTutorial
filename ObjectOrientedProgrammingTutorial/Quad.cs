@@ -11,6 +11,10 @@ namespace ObjectOrientedProgrammingTutorial {
         public int Side3 { get; set; }
         public int Side4 { get; set; }
 
+        public virtual string Print() {
+            return "Quad";
+        }
+
         public int Perimeter() {
             return Side1 + Side2 + Side3 + Side4;
         }

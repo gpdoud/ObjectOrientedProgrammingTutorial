@@ -6,6 +6,9 @@ namespace ObjectOrientedProgrammingTutorial {
 
     class Rect : Quad {
 
+        public override string Print() {
+            return "Rect";
+        }
         public int Area() {
             return Side1 * Side2;
         }
